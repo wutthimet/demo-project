@@ -4,6 +4,6 @@ build:
 
 service:
   name: DemoProject
-  port: 8081
+  port: 8082
   domain: localhost
   endpoint: /DemoProject
