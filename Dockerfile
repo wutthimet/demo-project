@@ -1,6 +1,6 @@
 FROM golang:latest
 
-ENV PACKAGE_PATH=/demo-project
+ENV PACKAGE_PATH=demo-project
 RUN mkdir -p /app/go/src/
 
 WORKDIR /app/go/src/$PACKAGE_PATH
